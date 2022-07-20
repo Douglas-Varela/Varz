@@ -1,0 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital@1&display=swap');
+
+/*
+#E5E9ED - Azul cinza
+#4C6989 - Azul claro
+#103769 - Azul
+#FFFFFF - Branco
+#0B1236 - Azul escuro
+
+*/
+
+body{
+    background: linear-gradient(#0B1236, #103769) ;
+}
+
+h1,p{
+    text-align: center;
+    color: white;
+    font-family:'Cabin', sans-serif;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+button{
+
+    width: 10%;
+    display: flex;
+}
+button#github{
+    margin-left: 50%;
+}
